@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body, html {
+    margin: 0;
+    padding: 0;
+}
+#bg-video {
+    position: absolute;  
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+}
+.content {
+    position: relative;
+    z-index: 1;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 200px;
+}
+
+.section {
+    height: 100vh;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 230px;
+    background: #120110b5;
+    color: white;
+}
+h1{
+    color: rgb(145, 12, 216);
+}
+h2,h5{
+    color: rgb(238, 20, 71);
+    
+
+}
+h3{
+    color: skyblue;
+}
+h4{
+    color: violet;
+}
+.motion {
+    width: 200px;
+    animation: move 3s ease-in-out infinite;
+}
+@keyframes move {
+    0%   { transform: translateX(0); }
+    50%  { transform: translateX(200px); }
+    100% { transform: translateX(0); }
+}
+.my-button {
+    background-color: #f25805; 
+    color: white;               
+    padding: 15px 30px;         
+    border: none;               
+    border-radius: 8px;         
+    font-size: 18px;
+    cursor: pointer;            
+}
+
+.my-button:hover {
+    background-color: #5745a0;
+}
+
+</style>
+</head>
+
+<body>
+
+<video autoplay loop muted id="bg-video">
+    <source src="./IMG_2044.MP4" type="video/mp4">
+</video>
+
+<div class="content">
+    <h1>Welcome To My Website</h1>
+    <center>
+        <button class="my-button">See More</button>
+    </center>
+</div>
+
+<div class="section">
+    <h2>CAR SHOPING</h2>
+    <center>
+        <h3>
+    Hello My Mame Is Peng ly 
+    </h3>
+</center>
+<p>welcome to my shop car Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum dolorem quis, voluptas numquam magni officiis! Quasi, modi? Illo eius dignissimos obcaecati alias sed consequatur quam, dolorum itaque, saepe adipisci aperiam.
+Minus blanditiis cumque, quibusdam ex tempore, nisi sed autem atque earum qui doloremque amet exercitationem sunt nulla voluptatum eveniet. Velit porro nobis aliquid odit sequi aliquam eius voluptatibus officiis aperiam?
+Placeat mollitia ad ab in officia doloremque dolor quidem, dignissimos assumenda natus temporibus minima nesciunt dolorem autem excepturi facere odio, officiis aliquid iusto veritatis sint sunt quod cupiditate. Porro, quibusdam?
+Mollitia deleniti in dolorum error, nesciunt recusandae enim dicta sunt reprehenderit harum a unde ducimus labore aperiam fugiat quo magni optio saepe quidem aut reiciendis officia! Incidunt unde cumque doloremque!
+Similique asperiores totam sapiente reiciendis, suscipit excepturi odio. Ex velit quaerat odio expedita! Itaque minima, illo, molestias aliquid porro modi saepe excepturi illum libero, in ullam adipisci est fugit voluptatem!
+Nemo veritatis, blanditiis voluptatibus beatae quod, ipsa possimus laudantium nulla vitae architecto qui expedita at deserunt tempore. Eum eligendi saepe voluptas, itaque recusandae praesentium at, temporibus enim esse aliquam magni.</p>
+</div>
+
+<div class="section">
+<h4>Look At Website</h4>
+<center>
+        A modern car is a combination of advanced engineering and technology designed to provide comfort, safety, and efficiency for everyday use. Most modern cars feature fuel-efficient engines, electronic fuel systems, and smart driving technology.
+
+ Key Features of Modern Cars
+
+High Safety Systems: ABS, Airbags, 360° Cameras, Parking Sensors
+
+Smart Technology: Touchscreen displays, Bluetooth, voice control
+
+Energy Efficiency: Hybrid and electric power options
+
+Attractive and aerodynamic design
+
+Electronic adjustable seats and smart air-conditioning
+</center>
+
+<img src="./download (3).jpg" alt="" width="10%" height="10%">
+<img src="./download (1).jpg" alt="" width="10%"height="10%">
+<img src="./download (2).jpg" alt="" width="10%"height="10%">
+<img src="./download (4).jpg" alt="" width="10%"height="10%">
+<img src="./download (5).jpg" class="rotate">
+<center>
+    <button class="my-button">Sell Now</button>
+<button class="my-button">See More</button>
+<button class="my-button">Buy Now</button>
+</center>
+<center>
+    <h1>
+  <button class="my-button">Tank You</button>
+    </h1>
+</center>
+</div>
+</body>
+</html>
